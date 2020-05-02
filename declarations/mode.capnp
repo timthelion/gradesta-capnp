@@ -1,10 +1,7 @@
-enum FieldSupport {
-     FULL @0;
-     NONE @1;
-     EMULATE @2;
-}
+@0x954db7909f0b200f;
 
-struct Mode(FieldId) {
-       field @0: FieldId;
-       support @1: FieldSupport;
+enum FieldSupport {
+     full @0;
+     none @1;
+     emulate @2;
 }

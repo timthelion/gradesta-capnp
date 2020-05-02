@@ -1,7 +1,7 @@
+@0x97d9fbcc5acb35a9;
 
 enum Encoding {
-     UNKNOWN @0;
-     OTHER_BINARY @1;
-     UTF8 @106;
-     // Prefer numbers from here if possible https://www.iana.org/assignments/character-sets/character-sets.xml
+     unknown @0;
+     otherBinary @1;
+     utf8 @2;
 }

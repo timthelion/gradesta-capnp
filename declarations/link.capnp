@@ -1,10 +1,11 @@
-using Map = import "map.capnp";
+@0x9551fc1c4e6cf349;
+using import "parameters.capnp".Parameters;
 
 struct Link {
-       discovery_daemon @0: Text;
+       discoveryDaemon @0: Text;
        service @1: Text;
        path @2: List(Text);
-       parameters @3: Map.Map(Text, Text);
-       cell_instance_id @4: Int64;
-       client_side_parameters @5: Map.Map(Text, Text);
+       parameters @3: Parameters;
+       cellInstanceId @4: Int64;
+       clientSideParameters @5: Parameters;
 }
